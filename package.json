@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "netdev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --host",
     "test:unit": "vitest"
   },
   "dependencies": {
